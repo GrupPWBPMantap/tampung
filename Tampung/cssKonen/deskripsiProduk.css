@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+/* Msin CSS*/
+
+.pembungkus {
+  /*nilai margin 150px ngatur jarak konten dengan yang atas */
+  margin: 150px auto 0;
+  width: 1200px;
+  position: relative;
+  height: 800px;
+}
+#turun {
+  padding-top: 4rem;
+}
+#tombol {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+#tulis {
+  position: absolute;
+  bottom: 3rem;
+}
+.card {
+  height: 24rem;
+  position: relative;
+  margin: 3rem 0px;
+  width: 18rem;
+}
+
+.sidebarku {
+  width: 400px;
+  float: left;
+  position: absolute;
+  padding-bottom: 40px;
+}
+.harga .btn-primary {
+  width: 40%;
+}
+.btn-warning {
+  width: 58%;
+}
+.harga {
+  width: fit-content;
+  min-width: 18rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+  padding: 2px;
+  background-color: #fff;
+}
+
+main {
+  padding: 40px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  right: 0;
+  left: 420px;
+  top: 0;
+  background-color: #fff;
+}
+.clear {
+  clear: both;
+}
+.Batang {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #0275d8;
+}
+.Batang h2 {
+  font-family: "Roboto Slab", serif;
+}
+span {
+  color: #0275d8;
+  font-weight: bolder;
+}
+
+/* selat antara footer dengan produk produk*/
+.container {
+  margin-bottom: 100px;
+}

@@ -1,0 +1,30 @@
+.container {
+  /*margin-top: 180px;*/
+  background-color: rgba(255, 255, 255, 0);
+}
+.card {
+  height: 26rem;
+  position: relative;
+  margin: 3rem 0px;
+  width: 19rem;
+}
+.card a {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.card-body > p {
+  position: absolute;
+  bottom: 3rem;
+}
+.card > img {
+  position: absolute;
+  top: 2rem;
+}
+span {
+  color: #0275d8;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
